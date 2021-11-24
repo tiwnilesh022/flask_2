@@ -155,3 +155,6 @@ def home(index_val = (0,0)):
 
     return render_template("index.html", rm=rm, result=result, iv=index_val, val=val,indi = indicies,lot=tup)
 
+if __name__ == "__main__":
+    app.run(debug=False)
+
